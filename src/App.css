@@ -1,0 +1,52 @@
+.rmcard{
+  background-color: rgb(14, 212, 14);
+}
+
+.rmCardPage{
+  background-color: gold;
+}
+
+.rmheader{
+background-color: gold;
+color: rgb(14, 212, 14);
+}
+
+
+.App {
+  text-align: center;
+  background-color: gold;
+}
+
+.App-logo {
+  height: 50vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: yellow;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
